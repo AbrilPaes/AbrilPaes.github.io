@@ -1,0 +1,106 @@
+
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+
+h1{
+    font-size: 34px;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 800px;
+}
+
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-size: 35px;
+    color: black;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja img{
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 12px;
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.card-body h5{
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+
+
+
+
